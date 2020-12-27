@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Roboto:wght@400;500;700;900&display=swap");
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f1bf00;
+  overflow: hidden;
+font-family: "Roboto", sans-serif;
+}
+
+/* ---------------------------------------- Nav -------------------------------------*/
+.navbar-light .navbar-nav .nav-link {
+  color: #aa151b;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #058e6e;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.navbar-light .navbar-nav .active > .nav-link {
+  color: #058e6e;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+   border-bottom: 3px solid #f1bf00;
+}
+
+.nav-container {
+  max-width: 1920px;
+}
+
+
+/* ---------------------------------------- Footer -------------------------------------*/
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: white;
+  text-align: center;
+}
+footer {
+  background-color: white;
+  height: auto;
+}
+
+.social {
+  margin: 0;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-twitter {
+  color: #aa151b;
+}
+
+.fa-instagram {
+  color: #aa151b;
+}
+
+.fa-facebook {
+  color: #aa151b;
+}
+
+.fa-youtube {
+  color: #aa151b;
+}
