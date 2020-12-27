@@ -1,45 +1,47 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+<h1 align="center">
+  <a href="https://donnaib.github.io/spanish_quiz/">Spanish Quiz</a>
+</h1>
 
-Welcome DonnaIB,
+![Spanish Quiz](documentation/additional_images/multi_device_view.png)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+[View Dublin Intercambio in GitHub Pages](https://donnaib.github.io/spanish_quiz/)
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+*Note: This is an extention to the fictional organisation created for my Code Institute milestone one project.*
 
-`python3 -m http.server`
+## Introduction
+The organisers of Dublin Intercambio wanted to create an additional learning resource for the people that attend their language
+exchanges.  They know that building vocabulary is a key element to improving your fluency of the language. They have created a bank of 
+questions based on converstaions they have with the language exchange participants, when they overhear participants commenting on a new
+word they have learned as well as adding their own interestings words or phrases that you won't find in a text book.
 
-A blue button should appear to click: *Make Public*,
+## Scope 
 
-Another blue button should appear to click: *Open Browser*.
+Create a simple, intuitive, and responsive website that hosts a quiz to help their participants learn and provided another way to advertise their intercambio events. 
+The site should be no more than 4 pages with the focus being the quiz to provide a simple, fun and intuative to use, language learning tool.  
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+The structure should adhere to convetion and be simple and intuitive, ensuring the user always knows where they are, how they got there and how to get back to 
+where they started.
 
-A blue button should appear to click: *Make Public*,
+The design should be similar to the Dublin Intercambio website, utilising the same colour palette, however as the focus is the quiz there will be no images used in this site, this will help to
+focus the users attention in the questions and answers.
 
-Another blue button should appear to click: *Open Browser*.
+Any addition features or functionaly are out of scope at this stage.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+User goals:
+* To enhance their Spanish vocabulary
+* To find out how to take part in a language exchange
+* To improve their language skills
 
-## Updates Since The Instructional Video
+Website owers goals:
+* 
+* 
+* 
+ 
+## UX
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+#### User stories
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+##### A typical user of this site would:
+* Have an interest in improving their level of Spanish
+*
