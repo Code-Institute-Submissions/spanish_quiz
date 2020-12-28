@@ -4,7 +4,7 @@
 
 ![Spanish Quiz](documentation/additional_images/multi_device_view.png)
 
-[View Dublin Intercambio in GitHub Pages](https://donnaib.github.io/spanish_quiz/)
+[View Spanish Quiz in GitHub Pages](https://donnaib.github.io/spanish_quiz/)
 
 
 *Note: This is an extention to the fictional organisation created for my Code Institute milestone one project.*
