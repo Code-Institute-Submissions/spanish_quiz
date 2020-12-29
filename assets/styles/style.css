@@ -9,6 +9,33 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+/* ---------------------------------------- Nav -------------------------------------*/
+.navbar-light .navbar-nav .nav-link {
+  color: #aa151b;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #058e6e;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.navbar-light .navbar-nav .active > .nav-link {
+  color: #058e6e;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+   border-bottom: 3px solid #aa151b;
+}
+
+.nav-container {
+  max-width: 1920px;
+}
+
+
 /* ---------------------------------------- Quiz -------------------------------------*/
 
 .quiz-container {
@@ -83,31 +110,6 @@ body {
   align-items: center;
 }
 
-/* ---------------------------------------- Nav -------------------------------------*/
-.navbar-light .navbar-nav .nav-link {
-  color: #aa151b;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-}
-
-.navbar-light .navbar-nav .nav-link:hover {
-  color: #058e6e;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-}
-
-.navbar-light .navbar-nav .active > .nav-link {
-  color: #058e6e;
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-   border-bottom: 3px solid #f1bf00;
-}
-
-.nav-container {
-  max-width: 1920px;
-}
 
 
 /* ---------------------------------------- Footer -------------------------------------*/
