@@ -79,7 +79,6 @@ function selectAnswer(e) {
     $("#scoreModal").modal('show');
     modalScore.innerText = score - 1;
     startButton.innerText = 'Restart';
-    startButton.classList.remove('hide');
     localStorage.setItem('mostRecentScore', modalScore.innerText)
   }
 }
