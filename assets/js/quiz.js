@@ -24,6 +24,11 @@ restartButton.addEventListener('click',() => {
    startGame()
 })
 
+saveButton.addEventListener('click', () => {
+    alert(localStorage.getItem("mostRecentScore"));
+
+} )
+
 function startGame() {
   welcome.classList.add('hide')
   startButton.classList.add('hide')
@@ -71,7 +76,11 @@ function selectAnswer(e) {
   if (randomQuestions.length > questionIndex + 1) {
     nextButton.classList.remove('hide')
   } else {
+    $("#scoreModal").modal('show');
+    modalScore.innerText = score - 1;
+    startButton.innerText = 'Restart';
     startButton.classList.remove('hide');
+    localStorage.setItem('mostRecentScore', modalScore.innerText)
   }
 }
 
