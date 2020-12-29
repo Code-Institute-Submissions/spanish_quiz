@@ -18,6 +18,12 @@ nextButton.addEventListener('click', () => {
   setNextQuestion()
 })
 
+restartButton.addEventListener('click',() => {
+   $('#scoreModal').modal('hide')
+   currentScore.innerText = 0
+   startGame()
+})
+
 function startGame() {
   welcome.classList.add('hide')
   startButton.classList.add('hide')
