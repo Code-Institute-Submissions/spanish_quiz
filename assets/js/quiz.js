@@ -6,6 +6,7 @@ const welcome = document.getElementById('welcome')
 const questionContainerElement = document.getElementById('question-container')
 const questionElement = document.getElementById('question')
 const answerButtonsElement = document.getElementById('answer-buttons')
+const closeButton = document.getElementById('close')
 
 const currentScore = document.getElementById('currentScore')
 let randomQuestions
@@ -28,6 +29,12 @@ saveButton.addEventListener('click', () => {
     alert(localStorage.getItem("mostRecentScore"));
 
 } )
+
+closeButton.addEventListener('click',() => {
+   $('#scoreModal').modal('hide')
+   currentScore.innerText = 0
+   startGame()
+})
 
 function startGame() {
   welcome.classList.add('hide')
