@@ -64,6 +64,10 @@ body {
     padding: 10px;
 }
 
+.hide {
+  display: none;
+}
+
 /* ---------------------------------------- Buttons -------------------------------------*/
 .btn-grid {
   display: grid;
