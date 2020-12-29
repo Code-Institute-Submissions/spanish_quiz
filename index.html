@@ -16,6 +16,8 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     type="text/css" />
 <link rel="stylesheet" href="assets/styles/style.css" type="text/css" />
+<script src="/assets/js/questions.js"></script>
+<script defer src="/assets/js/quiz.js"></script>
 
 <body>
 
@@ -50,15 +52,23 @@
     <div class="quiz-container">
         <div id="question-container" class="hide">
             <div id="score">Score: <span id="currentScore">0</span> / 5</div>
-            <div id="question">Question</div>
+            <div id="question"></div>
             <div id="answer-buttons" class="btn-grid">
-                <button class="btn">Answer 1</button>
-                <button class="btn">Answer 2</button>
-                <button class="btn">Answer 3</button>
-                <button class="btn">Answer 4</button>
+                <button class="btn"></button>
+                <button class="btn"></button>
+                <button class="btn"></button>
+                <button class="btn"></button>
             </div>
         </div>
         <div id="controls">
+            <div id="welcome">
+                <h2>¡Bienviendos! Welcome!</h2>
+                <p>
+                    We are committed to helping you improve your Spanish, so when you
+                    are not practising at one of our intercambios you can be learning
+                    some new vocabulary. We have created this fun quiz to help you!
+                </p>
+            </div>
             <button id="start-btn" class="start-btn btn">Start</button>
 
             <button id="next-btn" class="next-btn btn hide">Next</button>
