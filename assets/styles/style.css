@@ -49,7 +49,6 @@ body {
   margin: 75px auto;
 }
 
-
 #question {
   text-align: center;
 }
@@ -111,6 +110,14 @@ body {
   background-color: white;
   box-shadow: 0 0 5px 2px;
   float: right;
+}
+
+/* ---------------------------------------- About Page -------------------------------------*/
+
+.about {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 /* ---------------------------------------- Footer -------------------------------------*/
