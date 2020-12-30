@@ -8,6 +8,14 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+body.correct {
+  background-color: #058e6e;
+}
+
+body.wrong {
+  background-color: #aa151b;
+}
+
 /* -- Nav -- */
 .navbar-light .navbar-nav .nav-link {
   color: #aa151b;
