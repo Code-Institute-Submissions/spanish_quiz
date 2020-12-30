@@ -44,5 +44,23 @@ const questions = [
 		{ ans: 'shy', correct: false },
 		{ ans: 'simple', correct: false }
 	]
+    },
+    {
+	question: "What does the word 'estirón' mean in English?",
+	answers: [
+		{ ans: 'stretch', correct: true },
+		{ ans: 'tight', correct: false },
+		{ ans: 'east', correct: false },
+		{ ans: 'shark', correct: false }
+	]
+    },
+    {
+	question: "¿Cómo dirías 'el apuro' en inglés?",
+	answers: [
+		{ ans: 'pure', correct: false },
+		{ ans: 'purée', correct: false },
+		{ ans: 'predicament', correct: true },
+		{ ans: 'poor', correct: false }
+	]
 	},
 ]
