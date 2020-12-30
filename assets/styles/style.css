@@ -3,13 +3,12 @@
 
 body {
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   background-color: #f1bf00;
-  overflow: hidden;
   font-family: "Roboto", sans-serif;
 }
 
-/* ---------------------------------------- Nav -------------------------------------*/
+/* -- Nav -- */
 .navbar-light .navbar-nav .nav-link {
   color: #aa151b;
   font-family: "Roboto", sans-serif;
@@ -36,7 +35,11 @@ body {
 }
 
 
-/* ---------------------------------------- Quiz -------------------------------------*/
+/*-- Quiz --*/
+
+.quiz-section {
+    min-height: 1000px;
+}
 
 .quiz-container {
   max-width: 80%;
@@ -68,7 +71,7 @@ body {
   display: none;
 }
 
-/* ---------------------------------------- Buttons -------------------------------------*/
+/* -- Buttons -- */
 .btn-grid {
   display: grid;
   grid-template-columns: repeat(2, auto);
@@ -112,7 +115,7 @@ body {
   float: right;
 }
 
-/* ---------------------------------------- About Page -------------------------------------*/
+/* -- About Page -- */
 
 .about {
   justify-content: center;
@@ -120,7 +123,25 @@ body {
   text-align: center;
 }
 
-/* ---------------------------------------- Footer -------------------------------------*/
+/* -- Contact Page -- */
+.contact {
+    overflow: scroll;
+}
+
+#map {
+    background-color: white;
+    height: 400px;
+    margin: 30px 20px;
+}
+
+#form {
+    background-color: white;
+    height: 400px;
+    margin: 30px 20px;
+  
+}
+
+/* -- Footer -- */
 
 footer {
   position: fixed;
@@ -163,4 +184,21 @@ footer {
 
 .fa-youtube {
   color: #aa151b;
+}
+
+
+
+/* -- Media Queries -- */
+
+@media only screen and (max-width: 850px) {
+    .btn-grid {
+     display: grid;
+     grid-template-columns: repeat(1, auto);
+     gap: 10px;
+     margin: 20px 0;
+}
+    .btn {
+     font-size: 20px;
+    }
+
 }

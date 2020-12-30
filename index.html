@@ -49,15 +49,16 @@
         </nav>
     </header>
     <!-- Quiz section -->
+    <section class="quiz-section">
     <div class="quiz-container">
         <div id="question-container" class="hide">
             <div id="score">Score: <span id="currentScore">0</span> / 5</div>
             <div id="question"></div>
-            <div id="answer-buttons" class="btn-grid">
-                <button class="btn"></button>
-                <button class="btn"></button>
-                <button class="btn"></button>
-                <button class="btn"></button>
+            <div id="answer-buttons" class="btn-grid row">
+                <button class="btn btn-block"></button>
+                <button class="btn btn-block"></button>
+                <button class="btn btn-block"></button>
+                <button class="btn btn-block"></button>
             </div>
         </div>
         <div id="controls">
@@ -89,6 +90,7 @@
             <button
               type="button"
               class="close"
+              id="close"
               data-dismiss="modal"
               aria-label="Close"
             >
@@ -109,7 +111,7 @@
         </div>
       </div>
     </div>
-
+</section>
     <!-- Footer -->
 
     <footer class="container-fluid">
