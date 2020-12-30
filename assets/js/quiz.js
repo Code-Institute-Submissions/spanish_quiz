@@ -41,7 +41,7 @@ closeButton.addEventListener('click',() => {
 function startGame() {
   welcome.classList.add('hide')
   startButton.classList.add('hide')
-  randomQuestions = questions.sort(() => Math.random() - .5)
+  randomQuestions = questions.sort(() => Math.random() - .5).slice(0,5)
   questionIndex = 0
   questionContainerElement.classList.remove('hide')
   setNextQuestion()
