@@ -95,7 +95,6 @@ function selectAnswer(e) {
 function setScore(button) {
     if (button.dataset.correct) {
         currentScore.innerText = score++;
-        console.log(currentScore)
     }  
 }
 
