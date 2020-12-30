@@ -125,7 +125,36 @@ body.wrong {
 
 /* -- About Page -- */
 
+.about-container {
+  max-width: 80%;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 0 10px 2px;
+  margin: 75px auto;
+}
 .about {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* -- Scores Page -- */
+
+.scores-container {
+  max-width: 80%;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 0 10px 2px;
+  margin: 75px auto;
+}
+
+.scores {
   justify-content: center;
   align-items: center;
   text-align: center;
