@@ -50,68 +50,63 @@
     </header>
     <!-- Quiz section -->
     <section class="quiz-section">
-    <div class="quiz-container">
-        <div id="question-container" class="hide">
-            <div id="score">Score: <span id="currentScore">0</span> / 5</div>
-            <div id="question"></div>
-            <div id="answer-buttons" class="btn-grid row">
-                <button class="btn btn-block"></button>
-                <button class="btn btn-block"></button>
-                <button class="btn btn-block"></button>
-                <button class="btn btn-block"></button>
+        <div class="quiz-container">
+            <div id="question-container" class="hide">
+                <div id="score">Score: <span id="currentScore">0</span> / 5</div>
+                <div id="question"></div>
+                <div id="answer-buttons" class="btn-grid row">
+                    <button class="btn btn-block"></button>
+                    <button class="btn btn-block"></button>
+                    <button class="btn btn-block"></button>
+                    <button class="btn btn-block"></button>
+                </div>
             </div>
-        </div>
-        <div id="controls">
-            <div id="welcome">
-                <h2>¡Bienviendos! Welcome!</h2>
-                <p>
-                    We are committed to helping you improve your Spanish, so when you
-                    are not practising at one of our intercambios you can be learning
-                    some new vocabulary. We have created this fun quiz to help you!
-                </p>
-            </div>
-            <button id="start-btn" class="start-btn btn">Start</button>
+            <div id="controls">
+                <div id="welcome">
+                    <h2>Quiz Time!</h2>
+                    <p>
+                        ¡Hola Amigos! As you know we are committed to helping you improve your Spanish, so when you are
+                        not practising at one of our intercambios you can be learning some new vocabulary. We have
+                        created this fun quiz to help you!
+                    </p>
+                    <p>
+                        The questions are based on some fun and interesting words, verbs and the occasional frase that we hear at
+                        our language exchange events.
+                    </p>
+                    <p>
+                        We have created a bank of questions, each time you play, you will be given 5 questions at random from the question bank. Press 'Start' to play and see how many you get right! Remember, you will be given different questions each time, so the more you play, the more you learn.
+                    </p>
+                </div>
+                <button id="start-btn" class="start-btn btn">Start</button>
 
-            <button id="next-btn" class="next-btn btn hide">Next</button>
+                <button id="next-btn" class="next-btn btn hide">Next</button>
+            </div>
         </div>
-    </div>
-     <div
-      class="modal fade"
-      id="scoreModal"
-      tabindex="-1"
-      role="dialog"
-      aria-labelledby="exampleModalCenterTitle"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="modalTitle">Score: <span id="modalScore">0</span> / 5</h5>
-            <button
-              type="button"
-              class="close"
-              id="close"
-              data-dismiss="modal"
-              aria-label="Close"
-            >
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            ...
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-primary" id="restart-btn">
-              Restart
-            </button>
-            <button type="button" class="btn btn-primary" id="saveScore-btn">
-              Save Score
-            </button>
-          </div>
+        <div class="modal fade" id="scoreModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalTitle">Score: <span id="modalScore">0</span> / 5</h5>
+                        <button type="button" class="close" id="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        ...
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" id="restart-btn">
+                            Restart
+                        </button>
+                        <button type="button" class="btn btn-primary" id="saveScore-btn">
+                            Save Score
+                        </button>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-</section>
+    </section>
     <!-- Footer -->
 
     <footer class="container-fluid">
