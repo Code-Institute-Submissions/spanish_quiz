@@ -175,7 +175,7 @@ body.wrong {
     margin: 30px 0px;
 }
 
-#form {
+.form-col {
     height: 400px;
 }
 
@@ -219,11 +219,12 @@ body.wrong {
 
 .contact .btn {
   background-color: #fff;
-  color: #058e6e;
+  color: #aa151b;
   justify-content: center;
   float: right;
   margin: 7px;
-  padding: 10px 10px;
+  padding: 5px 5px;
+  font-size: 20px;
 }
 
 .skype {
