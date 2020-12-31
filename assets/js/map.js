@@ -6,7 +6,7 @@ function initMap() {
   });
 
 const myMarks = [
-    {"lat": 53.298750804089785, "lng": -6.178747830803757, "name": "HQ", "info": "This is our HQ, where we plan all our amazing events and create quizes to help you learn!"},
+    {"lat": 53.298750804089785, "lng": -6.178747830803757, "name": "HQ", "info": "This is our HQ, where we plan all our amazing events and create quizes to help you learn! Clink the link below to see details of our Intercambio events"},
     {"lat": 53.33821423236237, "lng": -6.237388486160337, "name": "Intercambio", "info": "Here is where our intercambios take place every Monday and Friday"},  
 ];
 
@@ -14,7 +14,7 @@ var InfoObj = [];
 
 
 for(let i=0; i < myMarks.length; i++) {
-    let contentString = '<h3>' + myMarks[i].name + '</h3>' + '<p>' + myMarks[i].info + '</p>' + '<a href="https://developers.google.com/maps/documentation/javascript/overview">' + 'Click me!' + '</a>';
+    let contentString = '<h3>' + myMarks[i].name + '</h3>' + '<p>' + myMarks[i].info + '</p>' + '<a href="https://donnaib.github.io/dublin_intercambio/events.html">' + 'Click me!' + '</a>';
     const marker = new google.maps.Marker ({
         position: new google.maps.LatLng(myMarks[i].lat, myMarks[i].lng),
         map: map,
