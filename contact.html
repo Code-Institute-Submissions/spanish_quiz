@@ -51,7 +51,47 @@
     <div class="container contact-height">
         <div class="row contact">
             <div class="col-12 col-md-6" id="map"></div>
-            <div class="col-12 col-md-6" id="form"></div>
+            <div class="col-12 col-md-6" id="form">
+                <div id="form" class="col form contact">
+          <div id="form-container">
+            <div id="form-overview">
+              <h1 class="form-heading">
+                Let's Chat!<i class="fa fa-comments"></i>
+              </h1>
+              <h4 class="sub-heading">
+                Send us a message, we love hearing from you!
+              </h4>
+              <form onsubmit="return sendMail(this);" id="contact-form">
+                  <input
+                    id="fname"
+                    class="text-input"
+                    type="text"
+                    name="fullName"
+                    placeholder=" Name:"
+                    required
+                  />
+                  <input
+                    class="text-input"
+                    type="email"
+                    name="email"
+                    placeholder=" Email:"
+                    required
+                  />
+                  <textarea
+                    name="message"
+                    id="message"
+                    rows="5"
+                    class="form-control"
+                    placeholder="Your message..."
+                    required
+                  ></textarea>
+
+                <button type="submit" class="btn" value="Send">Send</button>
+              </form>
+            </div>
+          </div>
+        </div>
+            </div>
         </div>
     </div>
 
