@@ -19,7 +19,7 @@ const questions = [
 	]
 	},	
 	{
-	question: "¿Qué significa la palabra 'cera' en inglés?",
+	question: "¿Qué significa la palabra 'la cera' en inglés?",
 	answers: [
 		{ ans: 'pig', correct: false },
 		{ ans: 'zero', correct: false },
@@ -62,5 +62,23 @@ const questions = [
 		{ ans: 'predicament', correct: true },
 		{ ans: 'poor', correct: false }
 	]
-	},
+    },
+    {
+    question: "What does the phrase 'ni que fueras...' mean in English?",
+	answers: [
+		{ ans: 'You did not do it either', correct: false },
+		{ ans: 'You left...', correct: false },
+		{ ans: 'It is not as if you are...', correct: true },
+		{ ans: 'You do not care...', correct: false }
+	]
+    },
+    {
+	question: "What does the verb 'empujar' mean in English?",
+	answers: [
+		{ ans: 'to peel', correct: false },
+		{ ans: 'to push', correct: true },
+		{ ans: 'to embolden', correct: false },
+		{ ans: 'to have empathy', correct: false }
+	]
+	}
 ]
