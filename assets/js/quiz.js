@@ -11,7 +11,7 @@ const closeButton = document.getElementById('close')
 const currentScore = document.getElementById('currentScore')
 let randomQuestions
 let questionIndex
-let score = 1
+let score = 0
 
 startButton.addEventListener('click', startGame)
 nextButton.addEventListener('click', () => {
@@ -86,7 +86,7 @@ function selectAnswer(e) {
     nextButton.classList.remove('hide')
   } else {
     $("#scoreModal").modal('show');
-    modalScore.innerText = score - 1;
+    modalScore.innerText = score;
     startButton.innerText = 'Restart';
     localStorage.setItem('mostRecentScore', modalScore.innerText)
   }
@@ -94,7 +94,7 @@ function selectAnswer(e) {
 
 function setScore(button) {
     if (button.dataset.correct) {
-        currentScore.innerText = score++;
+        currentScore.innerText = ++score;
     }  
 }
 
