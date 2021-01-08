@@ -13,6 +13,7 @@ let randomQuestions
 let questionIndex
 let score = 0
 
+// Button Event Listeners //
 startButton.addEventListener('click', startGame)
 nextButton.addEventListener('click', () => {
   questionIndex++
@@ -38,6 +39,8 @@ closeButton.addEventListener('click',() => {
    startGame()
 })
 
+// Start Quiz Function //
+
 function startGame() {
   welcome.classList.add('hide')
   startButton.classList.add('hide')
@@ -47,10 +50,14 @@ function startGame() {
   setNextQuestion()
 }
 
+// Sets next question in quiz //
+
 function setNextQuestion() {
   resetState()
   showQuestion(randomQuestions[questionIndex])
 }
+
+// Displays questions //
 
 function showQuestion(question) {
   questionElement.innerText = question.question
@@ -66,6 +73,8 @@ function showQuestion(question) {
   })
 }
 
+// Resets quiz state //
+
 function resetState() {
   clearStatusClass(document.body)
   nextButton.classList.add('hide')
@@ -73,6 +82,8 @@ function resetState() {
     answerButtonsElement.removeChild(answerButtonsElement.firstChild)
   }
 }
+
+// Displays answers or modal if question is finished //
 
 function selectAnswer(e) {
   const selectedButton = e.target;
@@ -92,11 +103,16 @@ function selectAnswer(e) {
   }
 }
 
+// Sets the users score //
+
 function setScore(button) {
     if (button.dataset.correct) {
         currentScore.innerText = ++score;
     }  
 }
+
+// Adds background colour to hightligh if answer is right or wrong //
+
 
 function setStatusClass(element, correct) {
   clearStatusClass(element)
@@ -107,6 +123,9 @@ function setStatusClass(element, correct) {
     element.classList.add('wrong');
   }
 }
+
+// Clears background color for each new question back to nuetral //
+
 
 function clearStatusClass(element) {
   element.classList.remove('correct')
