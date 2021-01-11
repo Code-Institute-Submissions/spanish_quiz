@@ -160,6 +160,18 @@ body.wrong {
   text-align: center;
 }
 
+.recentScores {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+.recentScores {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+
 /* -- Contact Page -- */
 .contact-height {
     min-height: 500px;
@@ -183,7 +195,6 @@ body.wrong {
   padding: 30px 0;
   height: 600px;
   display: flex;
-  background-color: red;
 }
 
 #form-container {
