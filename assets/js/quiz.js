@@ -28,14 +28,14 @@ restartButton.addEventListener('click',() => {
 })
 
 saveButton.addEventListener('click', () => {
-    alert(localStorage.getItem("mostRecentScore"));
+     clearStatusClass(document.body);
 
 } )
 
 closeButton.addEventListener('click',() => {
    $('#scoreModal').modal('hide')
    currentScore.innerText = 0
-   score = 1;
+   score = 0;
    startGame()
 })
 
