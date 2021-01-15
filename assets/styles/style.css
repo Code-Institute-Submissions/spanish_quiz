@@ -164,12 +164,24 @@ body.wrong {
   justify-content: center;
   align-items: center;
   text-align: center;
-}
-
-
-.recentScores {
     display: grid;
     grid-template-columns: repeat(2, auto);
+}
+
+#recentScoresList {
+    text-align: center;
+    list-style: none;
+}
+
+ul#recentScoresList {
+    padding: 25px 0;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+li.recentScoreListItems {
+    padding-bottom: 10px;
+    color: #058e6e;
 }
 
 /* -- Contact Page -- */

@@ -37,7 +37,7 @@ function scoreList() {
 
     recentScoresList.innerHTML = 
     recentScores.map(recentScores => {
-    return `<li class="high-score">${recentScores.name}: ${recentScores.score}</li>`
+    return `<li class="recentScoreListItems">${recentScores.name}: ${recentScores.score}</li>`
 }).join("")
 
 }
