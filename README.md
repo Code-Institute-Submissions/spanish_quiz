@@ -79,4 +79,31 @@ With a basic sketch created I moved to Balsamiq to create more detailed Wirefram
 ![Mobile wireframe](documentation/wireframes/mobile_wireframes.png)
 
 #### Larger Screen View
-![DLarger Screen wireframe](documentation/wireframes/larger_screen_wireframes.png)
+![Larger Screen wireframe](documentation/wireframes/larger_screen_wireframes.png)
+
+As with my previous project I was very aware that working with yellow in the colour pallete can be problematic. However, as before I was careful to utlize the color in a way that added to the design of the site, but didn't not compromise the accessibility of the site.
+
+## Features
+
+### Pages 
+
+##### Home
+As the quiz is the main feature of this site, the home page features an introduction to the quiz and allows users to get start right away with the quiz thanks to a prominent 'Start' button.  
+
+The brief introduction on this page is design to be short and informative. Providing enough information for the users to understant the background, the purpose, and the structure of the quiz, but not too much, that a potential user becomes bored and navigates away from the quiz.
+
+Each time a user plays the quiz, they are give 5 questions, chosen at random from the question bank. They are given a question and are presented with 4 possible answers.
+
+The yellow, green and red from the colour pallete are integral in this page. The yellow is the starting, neutral background, that then changes to either red or green depending on whither the user answers the questions correctly.  This provides fun, visual, and instance feedback to the user on their progress throughout the quiz.  
+
+There is also a score counter in the top right hand corner of the quiz container that counts the users score and they progress.
+
+The quiz is response and the layout of the questions and answers adapts different screen sizes.
+
+##### About
+The about page establishes the link between this quiz site and the sister Dublin Intercambio site. It tells the story of how this site came about, provides links to the sister site for further information about the language exchanges and also explains to the user how they can help build upon the quiz by submitting suggestions for words of phrases, with a link to the contact page when the use can submit a suggestion using the contact form.
+
+##### Scores
+
+
+##### Contact
