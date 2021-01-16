@@ -18,6 +18,7 @@ word they have learned as well as adding their own interestings words or phrases
 ## Scope 
 
 Create a simple, intuitive, and responsive website that hosts a quiz to help their participants learn and provided another way to advertise their intercambio events. 
+
 The site should be no more than 4 pages with the focus being the quiz to provide a simple, fun and intuative to use, language learning tool.  
 
 The structure should adhere to convetion and be simple and intuitive, ensuring the user always knows where they are, how they got there and how to get back to 
@@ -34,9 +35,10 @@ User goals:
 * To improve their language skills
 
 Website owers goals:
-* 
-* 
-* 
+* To create a fun and interactive quiz with no errors
+* To provide a free learning tool to their intercambio attendees and the wider public
+* To provide a way for users to interact with the organisers
+* To use the free quiz to further advertise their intercambio events
  
 ## UX
 
@@ -44,4 +46,29 @@ Website owers goals:
 
 ##### A typical user of this site would:
 * Have an interest in improving their level of Spanish
-*
+* 
+* 
+
+##### This project is the best way to help them achieve these things because:
+* The vocabulary and frases used in this quiz are based on real conversations that happen in our intercambios instead of the standard vocabulary you find in text books.
+* Users can submit their own suggestions for words or questions to add to the question bank, interesting words they recently learned, or interesting frases.
+* The Spanish Quiz website:
+    * Is easy to navigate.
+    * Is part of the Dublin Intercambio community and as such has warm, friendly and inviting feel to it.
+    * Ensures the important information is easy to find and access.
+    * Encourages users to attend the events and get involved.
+
+##### User stories
+1. As a new visitor to the website, I want to understand how to take part in the quiz.
+2. As a new visitor to the website, I learn some new Spanish vocabulary.
+3. As a new visitor to the website, 
+4. As a returning visitor to the website, I was to practise vocabulary and learn new vocabulary.
+5. As a returning visitor to the website, I was to suggest new questions to help others in the language exchange community
+
+
+
+### Design (Wireframes and Mockups): 
+With this site, I wanted to keep the design very simple, and create a connection with the [Dublin Intercambio](https://donnaib.github.io/dublin_intercambio/) site by utilising the same color pallete.
+As I always like to do I began the process of creating wireframes with good old fashioned pen and paper to get a very rough skeleton of the site based on the best layout for the required functionality.
+
+With a basic sketch created I moved to Balsamiq to create more detailed Wireframes for the site. 
