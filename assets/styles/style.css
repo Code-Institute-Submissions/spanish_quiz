@@ -88,7 +88,6 @@ body.wrong {
 }
 
 .btn {
-  border: 1px solid #CCCCCC;
   background-color: #CCCCCC;
   border-radius: 5px;
   padding: 15px 15px;
@@ -142,9 +141,12 @@ body.wrong {
 }
 
 /* -- Scores Page -- */
+.scores-page {
+     min-height: 1000px;
+}
 
 .scores-container {
-  max-width: 80%;
+  max-width: 50%;
   background-color: white;
   justify-content: center;
   align-items: center;
@@ -152,6 +154,17 @@ body.wrong {
   padding: 10px;
   box-shadow: 0 0 10px 2px;
   margin: 75px auto;
+}
+
+.enter-name {
+    background-color: red;
+
+}
+
+.form-heading {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .scores {
@@ -262,7 +275,6 @@ footer {
   bottom: 0;
   width: 100%;
   background-color: white;
-  color: white;
   text-align: center;
 }
 
