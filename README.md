@@ -2,7 +2,7 @@
   <a href="https://donnaib.github.io/spanish_quiz/">Spanish Quiz</a>
 </h1>
 
-![Spanish Quiz](documentation/additional_images/multi_device_view.png)
+![Spanish Quiz](documentation/additional_images/quiz_multi_device_view.png)
 
 [View Spanish Quiz in GitHub Pages](https://donnaib.github.io/spanish_quiz/)
 
@@ -54,16 +54,16 @@ Website owers goals:
 * Users can submit their own suggestions for words or questions to add to the question bank, interesting words they recently learned, or interesting frases.
 * The Spanish Quiz website:
     * Is easy to navigate.
-    * Is part of the Dublin Intercambio community and as such has warm, friendly and inviting feel to it.
+    * Is part of the Dublin Intercambio community and as such has a warm, friendly and inviting feel to it.
     * Ensures the important information is easy to find and access.
     * Encourages users to attend the events and get involved.
 
 ##### User stories
 1. As a new visitor to the website, I want to understand how to take part in the quiz.
 2. As a new visitor to the website, I learn some new Spanish vocabulary.
-3. As a new visitor to the website, 
+3. As a new visitor to the website, I want to find out more about the Dublin Intercambio community.
 4. As a returning visitor to the website, I was to practise vocabulary and learn new vocabulary.
-5. As a returning visitor to the website, I was to suggest new questions to help others in the language exchange community
+5. As a returning visitor to the website, I was to suggest new questions to help others in the language exchange community.
 
 
 
@@ -72,3 +72,11 @@ With this site, I wanted to keep the design very simple, and create a connection
 As I always like to do I began the process of creating wireframes with good old fashioned pen and paper to get a very rough skeleton of the site based on the best layout for the required functionality.
 
 With a basic sketch created I moved to Balsamiq to create more detailed Wireframes for the site. 
+
+### Wireframes
+
+#### Mobile View
+![Mobile wireframe](documentation/wireframes/mobile_wireframes.png)
+
+#### Larger Screen View
+![DLarger Screen wireframe](documentation/wireframes/larger_screen_wireframes.png)
