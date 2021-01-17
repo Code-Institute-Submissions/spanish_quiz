@@ -156,7 +156,20 @@ Screen shots of the validator results can be viewed below, as you can see there 
 ![HTML Validation Report - Contact](documentation/validation/validator_contact.png)
 ![CSS Validation Report](documentation/validation/validator_css.png)
 
+3. All links were tested to ensure there were no broken links and that all links to external sites open in a new tab.
 
+4. In addition to testing with the inspector tool, real devices and validation tools, I also work through a series of test cases, to ensure that the site met the users stories and that any functionality that was added worked as intented.
+
+### User Story Test Cases
+
+
+
+### Functionaly Test Cases
+
+
+
+### Accessibility
+In addition to all the above testing I also checked my site with accessibilty tools in the inspector. ![Accessiility Check Screenshot](documentation/validation/accessibility_check.png)
 
 
 
