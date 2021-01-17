@@ -127,11 +127,15 @@ body.wrong {
 .scores-btn {
     font-size: 1.5rem;
     font-weight: bold;
-    margin: 100px auto;
+    margin: 100px auto 20px auto;
     display: block;
     background-color: white;
     color: #058e6e;
     box-shadow: 0 0 5px 2px;
+}
+
+#playAgain {
+    margin: 40px auto 20px auto;
 }
 
 /* -- About Page -- */
