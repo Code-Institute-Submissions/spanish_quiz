@@ -79,10 +79,6 @@ body.wrong {
     padding: 10px;
 }
 
-.hide {
-  display: none;
-}
-
 /* -- Buttons -- */
 .btn-grid {
   display: grid;
@@ -116,14 +112,26 @@ body.wrong {
 }
 
 .start-btn,
-.next-btn {
+.next-btn,
+.modal-btn {
   font-size: 1.5rem;
   font-weight: bold;
   padding: 10px 20px;
   margin-top: 50px;
   background-color: white;
+  color: #058e6e;
   box-shadow: 0 0 5px 2px;
   float: right;
+}
+
+.scores-btn {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 100px auto;
+    display: block;
+    background-color: white;
+    color: #058e6e;
+    box-shadow: 0 0 5px 2px;
 }
 
 /* -- About Page -- */
@@ -148,6 +156,26 @@ h2.about {
     padding-bottom: 20px;;
 }
 
+/* -- Add Score Page -- */
+
+.add-name {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.enter-name {
+    background-color: white;
+}
+
+.save-score-btn{
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  background-color: white;
+  color: #058e6e;
+  box-shadow: 0 0 5px 2px;
+}
+
 /* -- Scores Page -- */
 .scores-page {
      min-height: 1000px;
@@ -162,11 +190,6 @@ h2.about {
   padding: 10px;
   box-shadow: 0 0 10px 2px;
   margin: 75px auto;
-}
-
-.enter-name {
-    background-color: red;
-
 }
 
 .form-heading {
@@ -263,7 +286,7 @@ li.recentScoreListItems {
 
 .contact .btn {
   background-color: #fff;
-  color: #aa151b;
+  color: #058e6e;
   justify-content: center;
   float: right;
   margin: 7px;
@@ -319,7 +342,9 @@ footer {
   color: #aa151b;
 }
 
-
+.hide {
+  display: none;
+}
 
 /* -- Media Queries -- */
 
