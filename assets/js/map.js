@@ -31,7 +31,7 @@ for(let i=0; i < myMarks.length; i++) {
         closeOtherInfo();
         infowindow.open(map, marker);
         InfoObj[0] = infowindow;
-    })
+    });
 
     function closeOtherInfo() {
         if(InfoObj.length > 0) {

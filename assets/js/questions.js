@@ -81,4 +81,4 @@ const questions = [
 		{ ans: 'to have empathy', correct: false }
 	]
 	}
-]
+];
