@@ -70,6 +70,10 @@ body.wrong {
   text-align: center;
 }
 
+.quiz-title{
+    padding-bottom: 20px;
+}
+
 #score {
     text-align: right;
     padding: 10px;
@@ -138,6 +142,10 @@ body.wrong {
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+h2.about {
+    padding-bottom: 20px;;
 }
 
 /* -- Scores Page -- */
