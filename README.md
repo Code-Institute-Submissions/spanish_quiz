@@ -155,3 +155,55 @@ Screen shots of the validator results can be viewed below, as you can see there 
 ![HTML Validation Report - Add Name](documentation/validation/validator_addName.png)
 ![HTML Validation Report - Contact](documentation/validation/validator_contact.png)
 ![CSS Validation Report](documentation/validation/validator_css.png)
+
+
+
+
+
+
+## Deployment
+
+To deploy this page to GitHub Pages from its [GitHub repository](https://donnaib.github.io/spanish_quiz/), the following steps were taken: 
+1. Log into GitHub. 
+2. From the list of repositories on the screen, select 
+3. From the menu items near the top of the page, select **Settings**.
+4. Scroll down to the **GitHub Pages** section.
+5. Under **Source** click the drop-down menu labelled **None** and select **Master Branch**
+6. On selecting Master Branch the page is automatically refreshed, the website is now deployed. 
+7. Scroll back down to the **GitHub Pages** section to retrieve the link to the deployed website.
+
+At the time of submission, the Development Branch and Master Branch were identical. 
+
+### How to run this project locally
+To clone this project from GitHub:
+1. Follow this link to the [Project GitHub repository](https://donnaib.github.io/spanish_quiz/).
+2. Under the repository name, click 'Code'
+
+!['Code button'](documentation/additional_images/code_button.jpg)
+
+3. In the Clone with HTTPs section, copy the clone URL for the repository. 
+4. In your local IDE open Git Bash.
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type ```git clone```, and then paste the URL you copied in Step 3.
+```console
+git clone https://github.com/DonnaIB/spanish_quiz.git
+```
+7. Hit enter and your local clone will be created.
+
+## Credits
+
+### Content
+The content of the site was written by myself and inspired by my Ms1 fictional project.
+
+### Code
+- Code for my navigation was adapted from my Ms1 project which in turn was adapted and customised from a code snippet found in the Bootstrap documentation.
+- Code for my footer was adapted from my Ms1 project. 
+- Code for the contact form taken from my Ms1 project and adapted and enhanced for this project.
+* I watched a number of JavaScript quiz youtube videos in preparation for this project including the following [How to Make a Quiz App using HTML CSS Javascript](https://www.youtube.com/watch?v=f4fB9Xg2JEY) which the code for my Scores and Add Name pages were based on.
+
+### Acknowledgements
+* My color scheme for this site was based on the colors in the Spanish flag and I used a colour scheme from [Scheme Color](https://www.schemecolor.com/spain-flag-colors.php), the specific color combination was created by user Keshav Naidu.
+
+* Thank you to Tim Nelson and Eamonn Smyth in the Slack community for helping me with problem in my score.js file.
+* I refered my previous README file which was influenced by AJ Greave's sample README as well as the Code Institute sample to help structure this README file.
+* A final thank to my mentor Aaron Sinnott who has advised and guided me through this milestone 2 project.
