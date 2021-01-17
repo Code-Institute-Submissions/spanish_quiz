@@ -19,7 +19,6 @@
 </head>
 
 <body>
-
     <header>
         <!-- Nav -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -47,21 +46,14 @@
             </div>
         </nav>
     </header>
-    <div class="scores-container" id="newName">
-        <div class="recentScores">
-            <form id="scoreForm">
-                <input type="text" name="name" id="username" placeholder="Enter name">
-                <button id="recent-score-btn" type="button" class="btn">Save</button>
-            </form>
-            <p id="usersScore"></p>
+    <div class="scores-page">
+        <button class="btn scores-btn" id="viewScores">View Scores</button>
+        <button class="btn scores-btn" id="playAgain" onclick="location.href = '/index.html';">Play Again</button>
+        <div class="scores-container hide" id="nameList">
+            <h2 class="scores">Recent Scores</h2>
+            <ul id="recentScoresList"></ul>
         </div>
     </div>
-    <div class="scores-container hide" id="nameList">
-        <h2 class="scores">Recent Scores</h2>
-         <ul id="recentScoresList"></ul>
-    </div>
-    <button id="start-btn" class="start-btn btn">Quiz</button>
-
     <!-- Footer -->
 
     <footer class="container-fluid">
@@ -107,6 +99,7 @@
         integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/ec566dc093.js" crossorigin="anonymous"></script>
+
     <script src="assets/js/scores.js"></script>
 </body>
 
