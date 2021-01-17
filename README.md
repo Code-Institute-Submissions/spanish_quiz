@@ -96,14 +96,19 @@ Each time a user plays the quiz, they are give 5 questions, chosen at random fro
 
 The yellow, green and red from the colour pallete are integral in this page. The yellow is the starting, neutral background, that then changes to either red or green depending on whither the user answers the questions correctly.  This provides fun, visual, and instance feedback to the user on their progress throughout the quiz.  
 
-There is also a score counter in the top right hand corner of the quiz container that counts the users score and they progress.
+There is also a score counter in the top right hand corner of the quiz container that counts the users score and they progress. Once a user has completed the quiz, a pop up appears giving the users the option to restart the quiz or save their score (using local storage).
 
 The quiz is response and the layout of the questions and answers adapts different screen sizes.
 
 ##### About
 The about page establishes the link between this quiz site and the sister Dublin Intercambio site. It tells the story of how this site came about, provides links to the sister site for further information about the language exchanges and also explains to the user how they can help build upon the quiz by submitting suggestions for words of phrases, with a link to the contact page when the use can submit a suggestion using the contact form.
 
-##### Scores
+##### Add Name (hidden page)
+The page is hidden and doesn't feature in the navigation, this page is visible when a users clicks on the Save Score button that appears in the modal once a user has completed the quiz. 
 
+This page features a form, to allow the user to enter then name to enable their score to be recorded on the Scores page.
+
+##### Scores
+The scores page allows users to view their recent scores using local storage. This page initially displays two buttons, providing the user the option to either play the quiz again or to view recent scores.  If the user chooses to view recent score, the buttons are hidden and recents scores are displayed, showing the username that the user entered and their score.
 
 ##### Contact
