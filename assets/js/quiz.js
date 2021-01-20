@@ -22,7 +22,7 @@ nextButton.addEventListener('click',() => {
 restartButton.addEventListener('click',() => {
     $('#scoreModal').modal('hide');
     currentScore.innerText = 0;
-    score = 1;
+    score = 0;
     startGame();
 });
 
