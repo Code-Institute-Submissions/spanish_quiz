@@ -8,6 +8,7 @@ const recentScores = JSON.parse(localStorage.getItem('recentScores')) || [];
 // Button Event Listener //
 viewScores.addEventListener('click', showScores);
 
+// This hides the buttons and makes visble the list of recent scores stored in local storage //
 function showScores() {
     nameList.classList.remove('hide');
     viewScores.classList.add('hide');
