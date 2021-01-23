@@ -10,16 +10,13 @@
 *Note: This is an extention to the fictional organisation created for my Code Institute milestone one project.*
 
 ## Introduction
-The organisers of Dublin Intercambio wanted to create an additional learning resource for the people that attend their language
-exchanges.  They know that building vocabulary is a key element to improving your fluency of the language. They have created a bank of 
-questions based on converstaions they have with the language exchange participants, when they overhear participants commenting on a new
-word they have learned as well as adding their own interestings words or phrases that you won't find in a text book.
+The organisers of Dublin Intercambio wanted to create an additional learning resource for the people that attend their language exchanges.  They know that building vocabulary is a key element to improving your fluency of the language. They have created a bank of questions based on converstaions they have with the language exchange participants, when they overhear participants commenting on a new word they have learned as well as adding their own interestings words or phrases that you won't find in a text book.
 
 ## Scope 
 
 Create a simple, intuitive, and responsive website that hosts a quiz to help their participants learn and provided another way to advertise their intercambio events. 
 
-The site should be no more than 4 pages with the focus being the quiz to provide a simple, fun and intuative to use, language learning tool.  
+The site should have a minimalistic feel with the focus being the quiz to provide a simple, fun and intuative to use, language learning tool.  
 
 The structure should adhere to convetion and be simple and intuitive, ensuring the user always knows where they are, how they got there and how to get back to 
 where they started.
@@ -45,9 +42,9 @@ Website owers goals:
 #### User stories
 
 ##### A typical user of this site would:
-* Have an interest in improving their level of Spanish
-* 
-* 
+* Have an interest in learning new Spanish words and phrases
+* Have an interest in learning beyond a textbook
+* Speak English and Spanish (to some level)
 
 ##### This project is the best way to help them achieve these things because:
 * The vocabulary and frases used in this quiz are based on real conversations that happen in our intercambios instead of the standard vocabulary you find in text books.
@@ -62,14 +59,14 @@ Website owers goals:
 1. As a new visitor to the website, I want to understand how to take part in the quiz.
 2. As a new visitor to the website, I learn some new Spanish vocabulary.
 3. As a new visitor to the website, I want to find out more about the Dublin Intercambio community.
-4. As a returning visitor to the website, I was to practise vocabulary and learn new vocabulary.
-5. As a returning visitor to the website, I was to suggest new questions to help others in the language exchange community.
+4. As a returning visitor to the website, I want to practise vocabulary and learn new vocabulary.
+5. As a returning visitor to the website, I want to suggest new questions to help others in the language exchange community.
 
 
 
 ### Design (Wireframes and Mockups): 
 With this site, I wanted to keep the design very simple, and create a connection with the [Dublin Intercambio](https://donnaib.github.io/dublin_intercambio/) site by utilising the same color pallete.
-As I always like to do I began the process of creating wireframes with good old fashioned pen and paper to get a very rough skeleton of the site based on the best layout for the required functionality.
+As I always like to do, I began the process of creating wireframes with good old fashioned pen and paper to get a very rough skeleton of the site based on the best layout for the required functionality.
 
 With a basic sketch created I moved to Balsamiq to create more detailed Wireframes for the site. 
 
@@ -104,7 +101,7 @@ The quiz is response and the layout of the questions and answers adapts to diffe
 The about page establishes the link between this quiz site and the sister Dublin Intercambio site. It tells the story of how this site came about, provides links to the sister site for further information about the language exchanges and also explains to the user how they can help build upon the quiz by submitting suggestions for words of phrases, with a link to the contact page when the use can submit a suggestion using the contact form.
 
 ##### Add Name (hidden page)
-The page is hidden and doesn't feature in the navigation, this page is visible when a users clicks on the Save Score button that appears in the modal once a user has completed the quiz. 
+The page is hidden and doesn't feature in the navigation, this page is only visible when a users clicks on the Save Score button that appears in the modal once a user has completed the quiz. 
 
 This page features a form, to allow the user to enter then name to enable their score to be recorded on the Scores page.
 
@@ -137,6 +134,7 @@ home page fo the site.
 - **Google fonts** was used to style the website fonts.
 - **jQuery** to reference Javascript needed for the responsive navbar.
 - **Popper.js** reference Javascript needed for the responsive navbar.
+- **Google Maps** to create map and markers on contact page.
 - **EmailJS** to connect the contact form to wesite owners Gmail account.
 
 ## Testing
@@ -145,9 +143,9 @@ I tested the site in the following ways:
 
 1. Initially I used the inspector tool to test the site in all the screen sizes and devices available in the Chrome developer tool.  In addition to this I also tested it on live devices, including but not limted to iPhone, iPad, MacBook Pro, MotoG7. 
 
-2. I also tested my code using the validator tools for both my HTML [W3C HTML Validator Tool](https://validator.w3.org/), CSS [W3C CSS Validator Tool](https://validator.w3.org/) and [JSHint](https://jshint.com/) Running my code through these tools highlighted a few issues with syntax which were fixed at the time and pushed as bug fixes.
+2. I also tested my code using the validator tools for both my HTML [W3C HTML Validator Tool](https://validator.w3.org/), CSS [W3C CSS Validator Tool](https://validator.w3.org/) and I aslso checked my JavaScript code using [JSHint](https://jshint.com/) Running my code through these tools highlighted a few issues with syntax which have been fixed.
 
-Screen shots of the validator results can be viewed below, as you can see there were no errors detected.
+Screen shots of the HTML & CSS validator results can be viewed below, as you can see there were no errors detected.
 
 ![HTML Validation Report - Index](documentation/validation/validator_index.png)
 ![HTML Validation Report - About](documentation/validation/validator_about.png)
@@ -161,6 +159,40 @@ Screen shots of the validator results can be viewed below, as you can see there 
 4. In addition to testing with the inspector tool, real devices and validation tools, I also work through a series of test cases, to ensure that the site met the users stories and that any functionality that was added worked as intented.
 
 ### User Story Test Cases
+1. As a new visitor to the website, I want to understand how to take part in the quiz. 
+
+On the home page users are greeted with an introduction to the quiz that explains how the quiz works. In addition buttons are added and removed as user progress through the quiz to nudge the users to take the next action and make sure that it is intuative.
+![Quiz Instructions](documentation/additional_images/quiz_instructions.png)
+![Next Button](documentation/additional_images/next_btn.png)
+
+
+2. As a new visitor to the website, I learn some new Spanish vocabulary.
+
+There is a bank of questions that will evolve and grow of questions that will enable users to learn new words and phrases.  The fact that each time the users is given 5 questions at random from the question bank, means that they can learn new words and phrases will practising the ones that they have seen before.
+
+![New words](documentation/additional_images/new_words.png)
+
+3. As a new visitor to the website, I want to find out more about the Dublin Intercambio community.
+
+ If a user wants to find out about the language exchange / intercambio events there are a number of places within the site that this is possble. There are 2 references on the Abouts page that refer to  Dublin Intercambio with a link to that site and also on the conatact page, one of the markers on the map is the location of the language exchange events again with a link to the Dublin Intercambio event.
+
+![About page](documentation/additional_images/about_page.png)
+![Map Marker](documentation/additional_images/map.png)
+
+
+4. As a returning visitor to the website, I want to practise vocabulary and learn new vocabulary.
+
+Learning a language and specifically new words and phrases is more than seeing a word once then being able to remember it and use it the next time they have a converstation in that language.  The fact that this quiz provides a random selection of questions means that users can keep coming back to this quiz and use it as part of their language studies. The balance of possible new words and the repeation of others means that over time users will build up their vocabulary.
+
+![Questions](documentation/additional_images/questions.png)
+
+
+5. As a returning visitor to the website, I was to suggest new questions to help others in the language exchange community.
+
+The site owners are keen to ensure this has involvement from their community invovlement so they ask peopel to submit any words or phrases that they think would enhance the quiz.  There is a call for this on the About page where users are then directed to the contact page to submit their suggestions.
+
+![About page](documentation/additional_images/contribute.png)
+![Contact form](documentation/additional_images/map.png)
 
 
 
@@ -170,8 +202,6 @@ Screen shots of the validator results can be viewed below, as you can see there 
 
 ### Accessibility
 In addition to all the above testing I also checked my site with accessibilty tools in the inspector. ![Accessiility Check Screenshot](documentation/validation/accessibility_check.png)
-
-
 
 
 ## Deployment
@@ -216,7 +246,7 @@ The content of the site was written by myself and inspired by my Ms1 fictional p
 
 ### Acknowledgements
 * My color scheme for this site was based on the colors in the Spanish flag and I used a colour scheme from [Scheme Color](https://www.schemecolor.com/spain-flag-colors.php), the specific color combination was created by user Keshav Naidu.
-
+* I referenced 'HOW TO GOOGLE MAPS', a document created by Eamonn and available on Slack. That document, together with the Google Maps documentation, helped me with the map on my contact page.
 * Thank you to Tim Nelson and Eamonn Smyth in the Slack community for helping me with problem in my score.js file.
 * I refered my previous README file which was influenced by AJ Greave's sample README as well as the Code Institute sample to help structure this README file.
 * A final thank to my mentor Aaron Sinnott who has advised and guided me through this milestone 2 project.
