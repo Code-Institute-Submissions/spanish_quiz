@@ -1,3 +1,5 @@
+// Bank of questions used for the quiz, 5 selected a random each time the quiz is played //
+
 const questions = [
 
 	{
