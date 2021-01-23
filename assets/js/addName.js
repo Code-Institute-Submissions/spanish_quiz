@@ -1,6 +1,5 @@
-// const username = document.getElementById("scoreForm");
-const formInput = document.getElementById('username')
-const mostRecentScore = localStorage.getItem("mostRecentScore")
+const formInput = document.getElementById('username');
+const mostRecentScore = localStorage.getItem("mostRecentScore");
 const recentScoreBtn = document.getElementById('recent-score-btn');
 const recentScores = JSON.parse(localStorage.getItem('recentScores')) || [];
 let userScore;
@@ -8,7 +7,6 @@ let userScore;
 formInput.addEventListener("keyup", function (event) {
     if (event.keyCode === 13) {
         scoreList();
-        console.log('Yay')
     }
     return false;
 });

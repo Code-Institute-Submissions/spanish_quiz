@@ -14,23 +14,23 @@ let score = 0;
 
 // Button Event Listeners //
 startButton.addEventListener('click', startGame);
-nextButton.addEventListener('click',() => {
+nextButton.addEventListener('click', () => {
     questionIndex++;
     setNextQuestion();
 });
 
-restartButton.addEventListener('click',() => {
+restartButton.addEventListener('click', () => {
     $('#scoreModal').modal('hide');
     currentScore.innerText = 0;
     score = 0;
     startGame();
 });
 
-saveButton.addEventListener('click',() => {
+saveButton.addEventListener('click', () => {
     clearStatusClass(document.body);
 });
 
-closeButton.addEventListener('click',() => {
+closeButton.addEventListener('click', () => {
     $('#scoreModal').modal('hide');
     currentScore.innerText = 0;
     score = 0;
@@ -81,7 +81,7 @@ function resetState() {
     }
 }
 
-// Displays answers or modal if question is finished //
+// Displays answers or modal if user had already answered 5 questions //
 
 function selectAnswer(e) {
     const selectedButton = e.target;
@@ -101,7 +101,7 @@ function selectAnswer(e) {
     }
 }
 
-// Sets the users score //
+// Sets the users score by adding one to the score if the answer is correct //
 
 function setScore(button) {
     if (button.dataset.correct) {
@@ -109,7 +109,7 @@ function setScore(button) {
     }
 }
 
-// Adds background colour to hightligh if answer is right or wrong //
+// Adds specific background colour to hightlight if the answer is right or wrong //
 
 function setStatusClass(element, correct) {
     clearStatusClass(element);
@@ -127,4 +127,3 @@ function clearStatusClass(element) {
     element.classList.remove('correct');
     element.classList.remove('wrong');
 }
-
