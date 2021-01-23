@@ -1,3 +1,5 @@
+//Sends information from contact form to EmailJS and displays a success or failure message to ensure users knows if they have successfully submited their details//
+
 function sendMail(contactForm) {
     emailjs.send("service_1jer91p", "spanish_quiz",{
         "fullName": contactForm.fullName.value,
