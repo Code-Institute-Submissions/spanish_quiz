@@ -198,11 +198,57 @@ The site owners are keen to ensure this has involvement from their community inv
 
 ### Functionaly Test Cases
 
+Quiz:
+1. Firstly double check the question.js file to ensure that the correct answers are marked as 'correct: true' and the wrong answers as 'correct: false'.
+2. Click the 'start' button and ensure that the quiz information is hidden and that the first question is correctly is displayed.
+3. Chose an answer to the questions and ensure that the 'next' button becomes visble to allow the user to move on.
+4. Answer 5 questions and ensure the modal appears displaying the correct score and buttons to allow the user the option to restart or save there score.
+4. Complete the quiz as many times as it takes to ensure that all questions have appeared and ensure that firstly selecting the correct answer envokes the corrent response (background turns green, buttons turn red or green depending if they are correct or not, and 1 is added to the score), and secondly that selecting the wrong answer envokes the appropirate response (background turns red, buttons turn red or green depending if they are correct or not, and 0 is added to the score).
 
+Score:
+1. Play the quiz and ensure that when choosing a correct answer that 1 is added to the score.
+2. Play the quiz and ensure that when choosing a incorrect answer that 0 is added to the score.
+3. Answer 5 questions and check the score displayed on the modal is correct.
+4. On the modal select 'Restart' and ensure that the score is reset to 0/5.
+5. After selecting 'Restart' play the quiz again and ensure that the 1 point is added for a correct answer and 0 for an incorrect answer.
+
+Save Score:
+1. Play quiz and answer all 5 questions, when the modal appears select 'Save Score', ensure that you are redirected to addName.html and that the form appears to allow user to enter their name.
+2. Enter name and click 'Save' button and ensure you are redirected to scores.html and that 'View Scores' & 'Play Again' buttons are visbile.
+3. Click 'View Scores' and ensure that users name and score is displayed and buttons are hidden.
+4. Repeat steps 1-3 but this time instead of clicking the 'Save' button in step 2, click the enter key'.
+5. Repeat steps 1-2 then click 'Play Again' button and ensure you are redirected to index.html.
+
+Email:
+1. Without entering any details attempt to submit the form. Ensure that validation errors are displayed.
+2. Enter data into the form one field at a time to test all validation errors are shown when a field is empty.
+3. Enter data into the email field that is not in email format and ensure the validation error appears.
+4. Enter correctly formated data in each field and ensure that success message alert is shown and that the correct data has been receive via email to the associated Gmail account.
+5. With service ID temporarily removed in the email.js file, enter correctly formated data in each field and ensure that failure message alert is shown.
+
+
+Map: 
+1. Navgate to the contact page and ensure that the map renders correctly, showing south Dublin and that both markers are visible.
+2. Click on each marker ensure information window appears with relevant information is displayed.
+3. Click on each marker and then click the links, ensure both links open the Dublin Intercambio site as a new tab.
+4. Click on each marker and close with 'x' in the top right hand corner.
+5. Click on one marker, after the info window has appeared, click on the other marker, ensure that the first info window closes and the new info window opens.
+
+Links:
+1. Click on each social media link in the footer and ensure that the correct social media accounts open in a new tab.
+2. Clink on each navigation link on each html page ensuring that you are taken to the correct page.
+3. Navigate to the About page and test the 3 links within the text.  Ensure clicking on both references to Dublin Intercambio, open the Dublin Intercambio site in a new tab.
+4. Still on the About page, click the link to the contact form, and ensure it redirects the user to the contact page within the same tab.
 
 ### Accessibility
 In addition to all the above testing I also checked my site with accessibilty tools in the inspector. ![Accessiility Check Screenshot](documentation/validation/accessibility_check.png)
 
+### Bugs
+During development and testing I found some small bugs related to href links, responsiveness and errors in the content.
+
+There were 2 specific bugs that I discussed with my mentor and were good for me to learn.  One was related to the score counter, I had used ++score to increment the score however this was causing some unexpected behaviour.  I discussed the issue with my mentor and we looked at the difference between ++score and score++. Based on my new understanding of the difference between these two things, I updated my code and achieved the expected behaviour.
+
+The second bug was related to a user adding them name when saving their score.  While I had already got the feature working with the 'Save' button, I was keen to ensure, from a UX perspective, that users could submit the form by using the enter button on their keyboard.  After reviewing my code together wtih my mentor, we realsied that while my code for this was correct, the form element in the associated html file was causing default behavour that was overriding what I was trying to achieve. I removed the <form> element and that fixed the bug.
 
 ## Deployment
 
