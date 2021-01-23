@@ -250,6 +250,9 @@ There were 2 specific bugs that I discussed with my mentor and were good for me 
 
 The second bug was related to a user adding them name when saving their score.  While I had already got the feature working with the 'Save' button, I was keen to ensure, from a UX perspective, that users could submit the form by using the enter button on their keyboard.  After reviewing my code together with my mentor, we realised that while my code for this was correct, the form element in the associated html file was causing default behaviour that was overriding what I was trying to achieve. I removed the <form> element and that fixed the bug.
 
+There is one outstanding warning that I noted from the console: DevTools failed to load SourceMap: Could not load content for https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover.css.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE. I double checked the link and tried updating it but I still got the same warning. I researched this on the internet and spoke with my mentor and the what I found was that 'is a warning, and it's non-fatal: it should not cause problems. It just means it can't find an un-minified version of the script, so you won't see the original code in the debugger'. 
+
+
 ## Deployment
 
 To deploy this page to GitHub Pages from its [GitHub repository](https://donnaib.github.io/spanish_quiz/), the following steps were taken: 
