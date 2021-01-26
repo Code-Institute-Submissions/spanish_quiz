@@ -291,7 +291,9 @@ The content of the site was written by myself and inspired by my Ms1 fictional p
 - Code for my navigation was adapted from my Ms1 project which in turn was adapted and customised from a code snippet found in the Bootstrap documentation.
 - Code for my footer was adapted from my Ms1 project. 
 - Code for the contact form taken from my Ms1 project and adapted and enhanced for this project.
-* I watched a number of JavaScript quiz Youtube videos in preparation for this project including the following [How to Make a Quiz App using HTML CSS Javascript](https://www.youtube.com/watch?v=f4fB9Xg2JEY) which the code for my Scores and Add Name pages were based on.
+* I watched a number of JavaScript quiz Youtube videos in preparation for this project including the following: 
+    - [How to Make a Quiz App using HTML CSS Javascript](https://www.youtube.com/watch?v=f4fB9Xg2JEY) which the code for my Scores and Add Name pages were based on.
+    - [Building a Multiple Choice Quiz](https://www.youtube.com/watch?v=LQGTb112N_c) and [Build A Quiz App With JavaScript](https://www.youtube.com/watch?v=riDzcEQbX6k) which I referred to when creating the my quiz.
 
 ### Acknowledgements
 * My color scheme for this site was based on the colors in the Spanish flag and I used a colour scheme from [Scheme Color](https://www.schemecolor.com/spain-flag-colors.php), the specific color combination was created by user Keshav Naidu.
